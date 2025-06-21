@@ -1,0 +1,34 @@
+# Terminals
+# alacritty
+ghostty
+foot
+
+# Window manager & tools
+# bspwm
+# sxhkd
+# picom
+# polybar
+# feh
+
+# Core utilities
+neovim
+git
+github-cli
+btop
+ripgrep
+bat
+eza
+fzf
+yasm
+nsxiv
+
+# Browsers
+firefox
+
+# Media
+mpv
+
+# System tools
+network-manager-applet
+qt5ct
+pavucontrol
