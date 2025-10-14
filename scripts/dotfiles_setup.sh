@@ -34,6 +34,9 @@ symlink_config() {
 symlink_config "hypr" ".config/hypr"
 symlink_config "bashrc" ".bashrc"
 symlink_config "tmux" ".config/tmux"
+symlink_config "yazi" ".config/yazi"
+symlink_config "foot" ".config/foot"
+symlink_config "scripts/bin" ".local/bin"
 [ -d "$DOTFILES_DIR/waybar" ] && symlink_config "waybar" ".config/waybar"
 
 echo "Dotfiles setup complete!"

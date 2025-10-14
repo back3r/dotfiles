@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+MONITOR="eDP-1"
+
+# Check if eDP-1 is in the list of active monitors
+if hyprctl monitors | grep -q "$MONITOR"; then
+    echo "Disabling $MONITOR"
+    hyprctl keyword monitor "$MONITOR,disable"
+else
+    echo "Enabling $MONITOR"
+    # Replace with your desired resolution, position, and scale
+    hyprctl keyword monitor "$MONITOR,1920x1080@60,0x0,1"
+fi
+
