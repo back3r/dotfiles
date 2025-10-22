@@ -1,5 +1,7 @@
-[plugin]
-deps = []
+[[plugin.deps]]
+use = "dedukun/bookmarks"
+rev = "9ef1254"
+hash = "92fbb5483657fa7976cdf4e0104e18e0"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-macchiato"
@@ -15,3 +17,8 @@ hash = "9e789c612c34f941a2afd42e7ded39f"
 use = "yazi-rs/flavors:catppuccin-frappe"
 rev = "2d73b79"
 hash = "ca94f5dc2b87919439b5be2a62cf4871"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:catppuccin-mocha"
+rev = "2d73b79"
+hash = "d4c41d713b325710a9dd5ae86c3f8a5f"
