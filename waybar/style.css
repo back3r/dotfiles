@@ -34,6 +34,11 @@ window#waybar.chromium {
     border: none;
 }
 
+window#waybar.firefox {
+    background-color: #000000;
+    border: none;
+}
+
 button {
     /* Use box-shadow instead of border so the text isn't offset */
     box-shadow: inset 0 -3px transparent;
@@ -94,7 +99,12 @@ button:hover {
 #scratchpad,
 #power-profiles-daemon,
 #mpd {
-    padding: 0 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 2px;
+    padding: 0px 10px;
+    /* padding: 0 10px; */
     color: #ffffff;
 }
 
@@ -194,6 +204,10 @@ label:focus {
 }
 
 #pulseaudio {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 2px;
     background-color: #f1c40f;
     color: #000000;
 }
