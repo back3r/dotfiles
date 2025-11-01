@@ -18,6 +18,7 @@ export PATH="$HOME/.local/bin:$PATH"
 # ~/.bashrc
 [ -f ~/.local/bin/yazi_fn.sh ] && source ~/.local/bin/yazi_fn.sh
 
+eval "$(thefuck --alias)"
 eval "$(fzf --bash)"
 
 # alias ls='ls --color=auto'
@@ -25,3 +26,6 @@ alias grep='grep --color=auto'
 alias ls='eza'
 
 PS1='[\u@\h \W]\$ '
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
