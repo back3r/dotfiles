@@ -10,3 +10,15 @@
 [submodule "tmux/plugins/vim-tmux-navigator"]
 	path = tmux/plugins/vim-tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator
+[submodule "tmux/tmux/plugins/tmux-sessionx"]
+	path = tmux/tmux/plugins/tmux-sessionx
+	url = https://github.com/omerxx/tmux-sessionx
+[submodule "tmux/plugins/tmux-session"]
+	path = tmux/plugins/tmux-session
+	url = https://github.com/omerxx/tmux-sessionx
+[submodule "plugins/tmux-sessionx"]
+	path = plugins/tmux-sessionx
+	url = https://github.com/omerxx/tmux-sessionx
+[submodule "tmux/plugins/tmux-sessionx"]
+	path = tmux/plugins/tmux-sessionx
+	url = https://github.com/omerxx/tmux-sessionx
