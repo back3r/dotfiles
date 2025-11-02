@@ -124,10 +124,22 @@ button:hover {
 }
 
 #clock {
-    background-color: #64727D;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
+    /* background-color: #64727D; */
+    background-color: #24273A;
+    color: #ffffff;
 }
 
 #battery {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
     background-color: #ffffff;
     color: #000000;
 }
@@ -156,20 +168,40 @@ button:hover {
 }
 
 #power-profiles-daemon {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
     padding-right: 15px;
 }
 
 #power-profiles-daemon.performance {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
     background-color: #f53c3c;
     color: #ffffff;
 }
 
 #power-profiles-daemon.balanced {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
     background-color: #2980b9;
     color: #ffffff;
 }
 
 #power-profiles-daemon.power-saver {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
     background-color: #2ecc71;
     color: #000000;
 }
@@ -179,76 +211,165 @@ label:focus {
 }
 
 #cpu {
-    background-color: #2ecc71;
-    color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
+    /* background-color: #2ecc71; */
+    background-color: #24273A;
+    color: #ffffff;
+    /* color: #000000; */
 }
 
 #memory {
-    background-color: #9b59b6;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
+    /* background-color: #9b59b6; */
+    background-color: #24273A;
+    color: #ffffff;
 }
 
 #disk {
-    background-color: #964B00;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
+    /* background-color: #964B00; */
+    background-color: #24273A;
+    color: #ffffff;
 }
 
 #backlight {
-    background-color: #90b1b1;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
+    /* background-color: #90b1b1; */
+    background-color: #24273A;
+    color: #ffffff;
 }
 
 #network {
-    background-color: #2980b9;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
+    /* background-color: #2980b9; */
+    background-color: #24273A;
+    color: #ffffff;
 }
 
 #network.disconnected {
-    background-color: #f53c3c;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
+    /* background-color: #f53c3c; */
+    background-color: #24273A;
+    color: #ffffff;
 }
 
 #pulseaudio {
     border-style: solid;
     border-width: 2px;
     border-color: #000000;
-    border-radius: 2px;
-    background-color: #f1c40f;
-    color: #000000;
+    border-radius: 8px;
+    margin: 2px;
+    /* background-color: #f1c40f; */
+    background-color: #24273A;
+    color: #ffffff;
 }
 
 #pulseaudio.muted {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
     background-color: #90b1b1;
     color: #2a5c45;
 }
 
 #wireplumber {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
     background-color: #fff0f5;
     color: #000000;
 }
 
 #wireplumber.muted {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
     background-color: #f53c3c;
 }
 
 #custom-media {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
     background-color: #66cc99;
     color: #2a5c45;
     min-width: 100px;
 }
 
 #custom-media.custom-spotify {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
     background-color: #66cc99;
 }
 
 #custom-media.custom-vlc {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
     background-color: #ffa000;
 }
 
 #temperature {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
     background-color: #f0932b;
 }
 
 #temperature.critical {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
     background-color: #eb4d4b;
 }
 
 #tray {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
     background-color: #2980b9;
 }
 
@@ -262,6 +383,11 @@ label:focus {
 }
 
 #idle_inhibitor {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
     background-color: #2d3436;
 }
 
@@ -271,6 +397,11 @@ label:focus {
 }
 
 #mpd {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    margin: 2px;
     background-color: #66cc99;
     color: #2a5c45;
 }
