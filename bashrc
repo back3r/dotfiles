@@ -26,6 +26,7 @@ eval -- "$(/usr/bin/starship init bash --print-full-init)"
 alias grep='grep --color=auto'
 alias ls='eza'
 alias dirs='dirs -v'
+alias cd='pushd'
 
 PS1='[\u@\h \W]\$ '
 
