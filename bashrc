@@ -18,7 +18,7 @@ export PATH="$HOME/.local/bin:$PATH"
 # ~/.bashrc
 [ -f ~/.local/bin/yazi_fn.sh ] && source ~/.local/bin/yazi_fn.sh
 
-eval "$(thefuck --alias)"
+# eval "$(thefuck --alias)"
 eval "$(fzf --bash)"
 eval -- "$(/usr/bin/starship init bash --print-full-init)"
 
@@ -27,6 +27,7 @@ alias grep='grep --color=auto'
 alias ls='eza'
 alias dirs='dirs -v'
 alias cd='pushd'
+alias vimwiki='nvim $HOME/wimwiki/index.md'
 
 PS1='[\u@\h \W]\$ '
 
