@@ -83,7 +83,7 @@ output "eDP-1" {
     mode "1920x1200@59.950"
     scale 1
     transform "normal"
-    position x=0 y=0
+    position x=2 y=1
 }
 output "DP-7" {
     // Run `niri msg outputs` while inside a niri instance to list all outputs and their modes.
@@ -306,6 +306,8 @@ window-rule {
     // This regular expression is intentionally made as specific as possible,
     // since this is the default config, and we want no false positives.
     // You can get away with just app-id="wezterm" if you want.
+    geometry-corner-radius 4
+    clip-to-geometry true
     match app-id=r#"^org\.wezfurlong\.wezterm$"#
     default-column-width {}
 }
@@ -334,7 +336,7 @@ window-rule {
 // Example: enable rounded corners for all windows.
 // (This example rule is commented out with a "/-" in front.)
 /-window-rule {
-    geometry-corner-radius 12
+    geometry-corner-radius4 
     clip-to-geometry true
 }
 
