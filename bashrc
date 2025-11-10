@@ -21,6 +21,7 @@ export PATH="$HOME/.local/bin:$PATH"
 # eval "$(thefuck --alias)"
 eval "$(fzf --bash)"
 eval -- "$(/usr/bin/starship init bash --print-full-init)"
+eval "$(zoxide init --cmd="cd" bash)"
 
 # alias ls='ls --color=auto'
 alias grep='grep --color=auto'

@@ -215,7 +215,7 @@
     "general": {
         "animationDisabled": false,
         "animationSpeed": 1,
-        "avatarImage": "/home/hcj/.face",
+        "avatarImage": "/home/hchavez/.face",
         "compactLockScreen": false,
         "dimDesktop": true,
         "enableShadows": true,
@@ -283,7 +283,7 @@
         "audioCodec": "opus",
         "audioSource": "default_output",
         "colorRange": "limited",
-        "directory": "/home/hcj/Videos",
+        "directory": "/home/hchavez/Videos",
         "frameRate": 60,
         "quality": "very_high",
         "showCursor": true,
@@ -318,7 +318,7 @@
     "ui": {
         "fontDefault": "JetBrainsMono Nerd Font",
         "fontDefaultScale": 1,
-        "fontFixed": "DejaVu Sans Mono",
+        "fontFixed": "JetBrainsMono Nerd Font Mono",
         "fontFixedScale": 1,
         "panelsAttachedToBar": true,
         "settingsPanelAttachToBar": false,
@@ -326,7 +326,7 @@
     },
     "wallpaper": {
         "defaultWallpaper": "/home/hcj/.config/quickshell/noctalia-shell/Assets/Wallpaper/noctalia.png",
-        "directory": "/home/hcj/Pictures/Wallpapers",
+        "directory": "/home/hchavez/Pictures/Wallpapers",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "fillColor": "#000000",
@@ -335,12 +335,12 @@
             {
                 "directory": "/home/hcj/Pictures/Wallpapers",
                 "name": "DP-7",
-                "wallpaper": "/home/hcj/Pictures/Wallpapers/night_ocean.jpg"
+                "wallpaper": "/home/hchavez/Pictures/Wallpapers/night_ocean.jpg"
             },
             {
                 "directory": "/home/hcj/Pictures/Wallpapers",
                 "name": "DP-8",
-                "wallpaper": "/home/hcj/Pictures/Wallpapers/night_ocean.jpg"
+                "wallpaper": "/home/hchavez/Pictures/Wallpapers/night_ocean.jpg"
             }
         ],
         "overviewEnabled": false,
