@@ -15,7 +15,7 @@
         "cavaFrameRate": 60,
         "mprisBlacklist": [
         ],
-        "preferredPlayer": "",
+        "preferredPlayer": "mpv",
         "visualizerType": "linear",
         "volumeOverdrive": false,
         "volumeStep": 5
