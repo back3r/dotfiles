@@ -22,6 +22,7 @@ export PATH="$HOME/.local/bin:$PATH"
 eval "$(fzf --bash)"
 eval -- "$(/usr/bin/starship init bash --print-full-init)"
 eval "$(zoxide init --cmd="cd" bash)"
+eval "$(niri completions bash)"
 
 # alias ls='ls --color=auto'
 alias grep='grep --color=auto'
