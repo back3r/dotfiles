@@ -5,13 +5,13 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-export TERM='foot'
-export TERMINAL='foot'
+export TERM='ghostty'
+export TERMINAL='ghostty'
 export VISUAL='nvim'
 export EDITOR='nvim'
 export VISUAL_EDIT='nvim'
 export SUDO_EDIT='nvim'
-export FILEMANAGER='thunar'
+export FILEMANAGER='nautilus'
 
 export PATH="$HOME/.local/bin:$PATH"
 
@@ -27,8 +27,8 @@ eval "$(niri completions bash)"
 # alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias ls='eza'
-alias dirs='dirs -v'
-alias cd='pushd'
+# alias dirs='dirs -v'
+# alias cd='pushd'
 alias vimwiki='nvim $HOME/wimwiki/index.md'
 
 PS1='[\u@\h \W]\$ '

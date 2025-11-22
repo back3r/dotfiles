@@ -283,7 +283,7 @@
         "audioCodec": "opus",
         "audioSource": "default_output",
         "colorRange": "limited",
-        "directory": "/home/hchavez/Videos",
+        "directory": "/home/hcj/Videos",
         "frameRate": 60,
         "quality": "very_high",
         "showCursor": true,
@@ -326,7 +326,7 @@
     },
     "wallpaper": {
         "defaultWallpaper": "/home/hcj/.config/quickshell/noctalia-shell/Assets/Wallpaper/noctalia.png",
-        "directory": "/home/hchavez/Pictures/Wallpapers",
+        "directory": "/home/hcj/Pictures/Wallpapers",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "fillColor": "#000000",
@@ -335,12 +335,12 @@
             {
                 "directory": "/home/hcj/Pictures/Wallpapers",
                 "name": "DP-7",
-                "wallpaper": "/home/hchavez/Pictures/Wallpapers/night_ocean.jpg"
+                "wallpaper": "/home/hcj/Pictures/Wallpapers/night_ocean.jpg"
             },
             {
                 "directory": "/home/hcj/Pictures/Wallpapers",
                 "name": "DP-8",
-                "wallpaper": "/home/hchavez/Pictures/Wallpapers/night_ocean.jpg"
+                "wallpaper": "/home/hcj/Pictures/Wallpapers/night_ocean.jpg"
             }
         ],
         "overviewEnabled": false,
