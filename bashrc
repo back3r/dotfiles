@@ -12,6 +12,7 @@ export EDITOR='nvim'
 export VISUAL_EDIT='nvim'
 export SUDO_EDIT='nvim'
 export FILEMANAGER='nautilus'
+export HISTFILE="$HOME/.bash_history"
 
 export PATH="$HOME/.local/bin:$PATH"
 
@@ -30,6 +31,15 @@ alias ls='eza'
 # alias dirs='dirs -v'
 # alias cd='pushd'
 alias vimwiki='nvim $HOME/wimwiki/index.md'
+
+HISTSIZE=100000
+HISTFILESIZE=100000
+HISTTIMEFORMAT="%F %T "
+HISTCONTROL=ignoredups:erasedups:ignorespace
+HISTIGNORE="ls:cd:pwd:exit:date:clear"
+
+shopt -s histappend
+PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
 PS1='[\u@\h \W]\$ '
 
