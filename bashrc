@@ -31,6 +31,7 @@ alias ls='eza'
 # alias dirs='dirs -v'
 # alias cd='pushd'
 alias vimwiki='nvim $HOME/wimwiki/index.md'
+alias prox="ssh proxmox"
 
 HISTSIZE=100000
 HISTFILESIZE=100000
