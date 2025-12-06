@@ -5,8 +5,9 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-export TERM='ghostty'
-export TERMINAL='ghostty'
+export TERM='xterm-256color'
+# export TERMINAL='foot'
+export TERMINAL='xterm-256color'
 export VISUAL='nvim'
 export EDITOR='nvim'
 export VISUAL_EDIT='nvim'
