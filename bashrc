@@ -29,6 +29,7 @@ eval "$(niri completions bash)"
 # alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias ls='eza'
+alias l='eza'
 # alias dirs='dirs -v'
 # alias cd='pushd'
 alias vimwiki='nvim $HOME/wimwiki/index.md'

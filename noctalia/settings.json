@@ -346,6 +346,21 @@
                 "directory": "/home/hcj/Pictures/Wallpapers",
                 "name": "eDP-1",
                 "wallpaper": "/home/hcj/Pictures/Wallpapers/night_ocean.jpg"
+            },
+            {
+                "directory": "/home/hcj/Pictures/Wallpapers",
+                "name": "DP-9",
+                "wallpaper": "/home/hcj/Pictures/Wallpapers/night_ocean.jpg"
+            },
+            {
+                "directory": "/home/hcj/Pictures/Wallpapers",
+                "name": "DP-10",
+                "wallpaper": "/home/hcj/Pictures/Wallpapers/night_ocean.jpg"
+            },
+            {
+                "directory": "/home/hcj/Pictures/Wallpapers",
+                "name": "DP-3",
+                "wallpaper": "/home/hcj/Pictures/Wallpapers/night_ocean.jpg"
             }
         ],
         "overviewEnabled": false,
