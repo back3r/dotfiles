@@ -283,7 +283,7 @@
         "audioCodec": "opus",
         "audioSource": "default_output",
         "colorRange": "limited",
-        "directory": "/home/hcj/Videos",
+        "directory": "/home/hcj/Videos/Recordings",
         "frameRate": 60,
         "quality": "very_high",
         "showCursor": true,
