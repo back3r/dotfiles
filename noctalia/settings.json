@@ -119,7 +119,8 @@
                     "drawerEnabled": true,
                     "favorites": [
                         "nm-applet",
-                        "Stremio"
+                        "Stremio",
+                        "virt-manager"
                     ],
                     "id": "Tray"
                 }
