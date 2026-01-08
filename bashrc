@@ -42,7 +42,8 @@ alias prox="ssh proxmox"
 HISTSIZE=5000
 HISTFILESIZE=10000
 HISTTIMEFORMAT="%F %T "
-HISTCONTROL=ignoredups:erasedups:ignorespace
+# HISTCONTROL=ignoredups:erasedups:ignorespace
+HISTCONTROL=ignoredups:erasedups
 HISTIGNORE="ls:cd:pwd:exit:date:clear"
 
 shopt -s histappend

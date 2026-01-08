@@ -41,8 +41,7 @@ open = [
 	{ run = 'termux-open "$1"',             desc = "Open", for = "android" },
 ]
 reveal = [
-	{ run = 'nsxiv "$1" -r ./',               desc = "Reveal", for = "linux" },
-  # { run = 'xdg-open "$(dirname "$1")"'            desc = "Reveal", for = "linux" },
+  { run = 'xdg-open "$(dirname "$1")"',           desc = "Reveal", for = "linux" },
 	{ run = 'open -R "$1"',                         desc = "Reveal", for = "macos" },
 	{ run = 'explorer /select,"%1"', orphan = true, desc = "Reveal", for = "windows" },
 	{ run = 'termux-open "$(dirname "$1")"',        desc = "Reveal", for = "android" },
@@ -57,6 +56,10 @@ play = [
 	{ run = 'mpv --force-window %*', orphan = true, for = "windows" },
 	{ run = '''mediainfo "$1"; echo "Press enter to exit"; read _''', block = true, desc = "Show media info", for = "unix" },
 ]
+# image = [
+# 	{ run = 'nsxiv "$1" -r .', desc = "Open image", for = "unix" },
+# 	{ run = 'nsxiv "$1" -r .', desc = "Open image", for = "linux" },
+# ]
 
 [open]
 rules = [
@@ -65,7 +68,7 @@ rules = [
 	# Text
 	{ mime = "text/*", use = [ "edit", "reveal" ] },
 	# Image
-  { mime = "image/*", use = [ "reveal", "open" ] },
+  { mime = "image/*", use = [ "open", "reveal" ] },
 	# Media
 	{ mime = "{audio,video}/*", use = [ "play", "reveal" ] },
 	# Archive
@@ -222,3 +225,4 @@ sort_by      	 = "none"
 sort_sensitive = false
 sort_reverse 	 = false
 sort_translit  = false
+

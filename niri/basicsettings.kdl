@@ -13,14 +13,14 @@ animations {
 
 layout {
     gaps 4
-    center-focused-column "never"
+    // center-focused-column "on-overflow"
     // always-center-single-column
     // empty-workspace-above-first
     default-column-display "normal"
     background-color "#003300"
 
     preset-column-widths {
-      proportion 0.33333
+      proportion 0.33337
       proportion 0.5
       proportion 0.66667
       proportion 1.0
@@ -86,15 +86,10 @@ layout {
     }
 }
 
-window-rule {
-    geometry-corner-radius 2
-    clip-to-geometry true
-    draw-border-with-background false
-} 
 
 input {
-    warp-mouse-to-focus
-    focus-follows-mouse
+    // warp-mouse-to-focus
+    focus-follows-mouse max-scroll-amount="0%"
     // disable-power-key-handling
     // workspace-auto-back-and-forth
     mod-key "Super"
