@@ -1,0 +1,40 @@
+input {
+    // warp-mouse-to-focus
+    focus-follows-mouse max-scroll-amount="0%"
+    // disable-power-key-handling
+    // workspace-auto-back-and-forth
+    mod-key "Super"
+    
+    touchpad {
+        tap
+        dwt
+        // dwtp
+        natural-scroll
+        drag false
+        // drag-lock
+        // disabled-on-external-mouse
+        // left-handed
+        click-method "clickfinger"
+        scroll-method "two-finger"
+        accel-speed 0.20
+        accel-profile "adaptive"
+        tap-button-map "left-right-middle"
+        scroll-factor 1.0
+    }
+    
+    mouse {
+        // natural-scroll
+        // left-handed
+        // middle-emulation
+        accel-speed 0.20
+        accel-profile "adaptive"
+        scroll-factor 1.0
+    }
+    
+    keyboard {
+        track-layout "window"
+        numlock
+        repeat-delay 200
+        repeat-rate 35
+    }
+}
