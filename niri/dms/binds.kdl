@@ -113,10 +113,12 @@ binds {
     Mod+Shift+P { power-off-monitors; }
     Ctrl+Print { screenshot-screen; }
     Ctrl+XF86Launch1 { screenshot-screen; }
-    Print { screenshot; }
+    // Print { screenshot "region"; }
+    Print hotkey-overlay-title="Browse Wallpapers" { spawn "dms" "screenshot" "region"; }
+    Mod+Shift+S hotkey-overlay-title="Browse Wallpapers" { spawn "dms" "screenshot" "region"; }
     XF86Launch1 { screenshot; }
     Mod+Shift+E { quit; }
-    Mod+Return hotkey-overlay-title="Open Terminal" { spawn "ghostty"; }
+    Mod+Return hotkey-overlay-title="Open Terminal" { spawn "kitty"; }
     Mod+D repeat=false { toggle-overview; }
     Mod+Escape { toggle-keyboard-shortcuts-inhibit; }
     Mod+Shift+Slash { show-hotkey-overlay; }
