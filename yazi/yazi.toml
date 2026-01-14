@@ -66,7 +66,6 @@ image = [
 	{ run = "nsxiv %s -r .", desc = "Extract here" },
 ]
 
-
 [open]
 rules = [
 	# Folder

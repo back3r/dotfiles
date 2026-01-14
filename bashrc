@@ -14,6 +14,7 @@ export VISUAL_EDIT='nvim'
 export SUDO_EDIT='nvim'
 export FILEMANAGER='nautilus'
 export HISTFILE="$HOME/.bash_history"
+# export XDG_CONFIG_HOME=$HOME/.config
 
 export PATH="$HOME/.local/bin:$PATH"
 

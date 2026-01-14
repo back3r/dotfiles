@@ -118,7 +118,8 @@ binds {
     Mod+Shift+S hotkey-overlay-title="Browse Wallpapers" { spawn "dms" "screenshot" "region"; }
     XF86Launch1 { screenshot; }
     Mod+Shift+E { quit; }
-    Mod+Return hotkey-overlay-title="Open Terminal" { spawn "kitty"; }
+    // Mod+Return hotkey-overlay-title="Open Terminal" { spawn-sh "foot -c /home/hcj/.config/foot/foot.ini"; }
+    Mod+Return hotkey-overlay-title="Open Terminal" { spawn-sh "foot -c $XDG_CONFIG_HOME/foot/foot.ini"; }
     Mod+D repeat=false { toggle-overview; }
     Mod+Escape { toggle-keyboard-shortcuts-inhibit; }
     Mod+Shift+Slash { show-hotkey-overlay; }
