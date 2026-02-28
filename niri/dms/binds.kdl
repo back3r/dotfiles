@@ -3,10 +3,12 @@ binds {
     Ctrl+Shift+Escape hotkey-overlay-title="Task Manager" { spawn "dms" "ipc" "call" "processlist" "focusOrToggle"; }
     Mod+Comma hotkey-overlay-title="Settings" { spawn "dms" "ipc" "call" "settings" "focusOrToggle"; }
     Mod+N hotkey-overlay-title="Notification Center" { spawn "dms" "ipc" "call" "notifications" "toggle"; }
-    Mod+P hotkey-overlay-title="Application Launcher" { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
+    // Mod+P hotkey-overlay-title="Application Launcher" { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
+    Mod+P hotkey-overlay-title="Application Launcher" { spawn "vicinae" "open"; }
     Mod+Shift+N hotkey-overlay-title="Notepad" { spawn "dms" "ipc" "call" "notepad" "toggle"; }
     Mod+V hotkey-overlay-title="Clipboard Manager" { spawn "dms" "ipc" "call" "clipboard" "toggle"; }
     Mod+Y hotkey-overlay-title="Browse Wallpapers" { spawn "dms" "ipc" "call" "dankdash" "wallpaper"; }
+    // XF86AudioPlay allow-when-locked=true { spawn "/home/hcj/.local/bin/playpause.sh"; }
     XF86AudioLowerVolume allow-when-locked=true { spawn "dms" "ipc" "call" "audio" "decrement" "3"; }
     XF86AudioMicMute allow-when-locked=true { spawn "dms" "ipc" "call" "audio" "micmute"; }
     XF86AudioMute allow-when-locked=true { spawn "dms" "ipc" "call" "audio" "mute"; }
@@ -115,13 +117,18 @@ binds {
     Ctrl+XF86Launch1 { screenshot-screen; }
     // Print { screenshot "region"; }
     Print hotkey-overlay-title="Browse Wallpapers" { spawn "dms" "screenshot" "region"; }
-    Mod+Shift+S hotkey-overlay-title="Browse Wallpapers" { spawn "dms" "screenshot" "region"; }
+    // Mod+Shift+S hotkey-overlay-title="Browse Wallpapers" { spawn "dms" "screenshot" "region"; }
+    Mod+Shift+S hotkey-overlay-title="Browse Wallpapers" { spawn-sh "/home/hcj/.local/bin/screenshot2.sh"; }
     XF86Launch1 { screenshot; }
     Mod+Shift+E { quit; }
     // Mod+Return hotkey-overlay-title="Open Terminal" { spawn-sh "foot -c /home/hcj/.config/foot/foot.ini"; }
-    Mod+Return hotkey-overlay-title="Open Terminal" { spawn-sh "foot -c $XDG_CONFIG_HOME/foot/foot.ini"; }
+    // Mod+Return hotkey-overlay-title="Open Terminal" { spawn-sh "foot -c $XDG_CONFIG_HOME/foot/foot.ini"; }
+    Mod+Return hotkey-overlay-title="Open a Terminal: foot" { spawn-sh "ghostty"; }
+    Mod+Shift+Return hotkey-overlay-title="Open a Terminal: ghostty" { spawn-sh "ghostty -e tmux"; }
     Mod+D repeat=false { toggle-overview; }
     Mod+Escape { toggle-keyboard-shortcuts-inhibit; }
     Mod+Shift+Slash { show-hotkey-overlay; }
-    Mod+Tab repeat=false { toggle-overview; }
+    // Mod+Tab repeat=false { toggle-overview; }
+    Mod+O repeat=false { toggle-overview; }
+    XF86AudioPlay { spawn "playerctl" "play-pause"; }
 }

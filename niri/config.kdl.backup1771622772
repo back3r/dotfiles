@@ -261,5 +261,3 @@ recent-windows {
     }
 }
 
-
-include "dms/cursor.kdl"
